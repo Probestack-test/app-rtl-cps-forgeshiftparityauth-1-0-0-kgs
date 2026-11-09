@@ -1,0 +1,21 @@
+openapi: 3.0.3
+info:
+  title: forgeshiftparityauth-1-0-0
+  version: 1.0.0
+  description: Operational baseline generated from observed Kong Konnect configuration.
+servers:
+- url: https://postman-echo.com
+paths: {}
+x-kong-source:
+  serviceId: 17134ca9-207d-45b8-b55f-d22ef04dd005
+  snapshotFingerprint: 07cea5136085320a7d1a760a482942009d20bec1206588859bbf39aee15301c0
+  controlPlaneId: edb363b5-777a-445c-a190-5ca0d53c0c12
+x-kong-unmapped-routes:
+- routeId: 34369051-b02a-455f-8519-ee91bb71789a
+  routeName: forgeshiftparityauth-1-0-0--getget
+  reasons:
+  - REGEX_OR_UNSUPPORTED_PATH
+- routeId: ee27eccb-8028-4176-9e45-5b890ea908cd
+  routeName: forgeshiftparityauth-1-0-0--postpost
+  reasons:
+  - REGEX_OR_UNSUPPORTED_PATH
